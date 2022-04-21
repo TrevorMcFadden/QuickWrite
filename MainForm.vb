@@ -195,7 +195,7 @@ Public Class MainForm
     End Sub
     Private Sub PlaceImageButtonTS_Click(sender As Object, e As EventArgs) Handles PlaceImageButtonTS.Click, PlaceImageButtonMS.Click
         OpenFileDialog1.Title = "QuickWrite Image Selection"
-        OpenFileDialog1.DefaultExt = ".rtf"
+                                    OpenFileDialog1.DefaultExt = ".png"
         OpenFileDialog1.Filter = "Bitmap Files|*.bmp|JPEG Files|*.jpg|GIF Files|*.gif"
         OpenFileDialog1.FilterIndex = 1
         OpenFileDialog1.ShowDialog()
